@@ -1,0 +1,36 @@
+.button {
+    width: 250px;
+    height: 90px;
+    margin-top: 15px;
+    -unity-font-definition: url('project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF%201.asset?fileID=11400000&guid=e1802647c169cfc4d8ac53f4fe721959&type=2#ONE Mobile Title SDF 1');
+    -unity-text-align: middle-left;
+    font-size: 55px;
+    margin-bottom: 5px;
+    transition-duration: 0.2s;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    color: rgb(212, 212, 212);
+}
+
+.button:hover {
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.text {
+    -unity-font-definition: url('project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF.asset?fileID=11400000&guid=b9b1355a0e84bd34e8d88aa8b882c004&type=2#ONE Mobile Title SDF');
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    -unity-text-align: upper-left;
+}
+
+.Tuto {
+    display: none;
+}
+
+.Tuto.TutoClear {
+    display: flex;
+}

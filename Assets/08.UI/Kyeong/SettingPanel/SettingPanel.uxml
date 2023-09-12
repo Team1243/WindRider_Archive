@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/08.UI/Kyeong/SettingPanel/SettingPanel.uss?fileID=7433441132597879392&amp;guid=786a3b2f0b8d2224d86aa5270555215f&amp;type=3#SettingPanel" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.59); align-items: center; justify-content: center;">
+        <ui:VisualElement name="BackGround" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Kyeong/Game%20UI%20collection%20FREE%20version/Elements-01.png?fileID=1912438016&amp;guid=e5fecd8143762374eab0bc8bd6eab382&amp;type=3#Elements-01_0&apos;); width: 80%; height: 80%; align-items: center; justify-content: center;">
+            <ui:Button display-tooltip-when-elided="true" name="ExitButton" style="width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/02.Sprites/Kyeong/Game%20UI%20collection%20FREE%20version/Icons-01.png?fileID=279980049&amp;guid=9007395ed090f8a408c29d810b664975&amp;type=3#Icons-01_2&apos;); background-color: rgb(36, 36, 36); position: absolute; top: 50px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(12, 12, 12); border-right-color: rgb(12, 12, 12); border-top-color: rgb(12, 12, 12); border-bottom-color: rgb(12, 12, 12); right: 50px;" />
+            <ui:Label tabindex="-1" text="Setting" display-tooltip-when-elided="true" name="SettingLabel" style="-unity-font-definition: url(&apos;project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF.asset?fileID=11400000&amp;guid=b9b1355a0e84bd34e8d88aa8b882c004&amp;type=2#ONE Mobile Title SDF&apos;); -unity-text-align: upper-center; font-size: 100px; margin-top: 76px; margin-bottom: 0; margin-right: 0; margin-left: 0; color: rgb(155, 255, 255);" />
+            <ui:VisualElement name="SoundSlider" style="background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: flex-start; margin-top: 125px; margin-bottom: 50px;">
+                <ui:Slider picking-mode="Ignore" label="MASTER" value="-80" high-value="0" name="Slider01" low-value="-80" class="Slider" />
+                <ui:Slider picking-mode="Ignore" label="BGM" value="-80" high-value="0" name="Slider02" low-value="-80" class="Slider" />
+                <ui:Slider picking-mode="Ignore" label="SFX" value="-80" high-value="0" name="Slider03" low-value="-80" class="Slider" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Bright" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Slider picking-mode="Ignore" label="BRIGHT" value="0" high-value="255" name="BrightSlider" low-value="0" class="Slider" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Button text="Menu" display-tooltip-when-elided="true" name="MenuButton" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,41 @@
+.stage {
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 1920px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 1080px;
+    transition-duration: 0.2s;
+}
+
+.stage > #LabelCon {
+    width: 250px;
+    height: 250px;
+    -unity-font-definition: url('project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF.asset?fileID=11400000&guid=b9b1355a0e84bd34e8d88aa8b882c004&type=2#ONE Mobile Title SDF');
+    font-size: 125px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+}
+
+.stage > #LabelCon > Label {
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF.asset?fileID=11400000&guid=b9b1355a0e84bd34e8d88aa8b882c004&type=2#ONE Mobile Title SDF');
+    font-size: 138px;
+}
+
+.stage.show {
+    left: 0;
+    transition-timing-function: ease-in-out-elastic;
+    transition-duration: 0.5s;
+}
+
+.stage.unshow {
+    left: -1920px;
+    transition-timing-function: ease-in-out-elastic;
+    transition-duration: 0.5s;
+}

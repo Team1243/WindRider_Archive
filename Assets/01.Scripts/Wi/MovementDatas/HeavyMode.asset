@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851e3ea3506305c4da2634ddc3712ceb, type: 3}
+  m_Name: HeavyMode
+  m_EditorClassIdentifier: 
+  maxSpeed: 15
+  acceleration: 80
+  deceleration: 80
+  gravityScale: 15
+  jumpPower: 0
+  wallJumpSpeedX: 25
+  wallJumpSpeedY: 25
+  windAffect: 0
+  holeAffect: 0
+  canBreakWall: 1

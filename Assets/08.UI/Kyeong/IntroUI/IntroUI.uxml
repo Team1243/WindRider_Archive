@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/08.UI/Kyeong/IntroUI/IntroUI.uss?fileID=7433441132597879392&amp;guid=247e2b569e872be41ade1bcccef96080&amp;type=3#IntroUI" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: flex-start; flex-direction: row; justify-content: space-between;">
+        <ui:VisualElement name="Left" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 50%;">
+            <ui:VisualElement name="Texts" style="background-color: rgba(0, 0, 0, 0); flex-basis: 50%; width: 50%; flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Wind Rider" display-tooltip-when-elided="true" name="Label" style="-unity-font-definition: url(&apos;project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF%201.asset?fileID=11400000&amp;guid=e1802647c169cfc4d8ac53f4fe721959&amp;type=2#ONE Mobile Title SDF 1&apos;); font-size: 125px; margin-top: 149px; margin-left: 126px; color: rgb(238, 238, 238);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="background-color: rgba(0, 0, 0, 0); flex-basis: 40%; margin-left: 25px; margin-bottom: 25px;">
+                <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="button Tuto" />
+                <ui:Button text="Tutorial" display-tooltip-when-elided="true" name="PracticeButton" class="button" />
+                <ui:Button text="Setting" display-tooltip-when-elided="true" name="SettingButton" class="button" />
+                <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 50%; flex-direction: row-reverse;">
+            <ui:VisualElement name="TextField" style="background-color: rgba(0, 0, 0, 0); width: 600px; height: 250px; align-items: flex-end; margin-top: 25px; margin-right: 25px;">
+                <ui:Label tabindex="-1" text="플레이어 이동 : 방향키, A or D&#10;플레이어 점프 : Space &#10;가벼운 상태로 변경 : Q, Z&#10;무거운 상태로 변경 : E, X" display-tooltip-when-elided="true" name="Text" class="text" style="flex-basis: 100%; -unity-font-definition: url(&apos;project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF%201.asset?fileID=11400000&amp;guid=e1802647c169cfc4d8ac53f4fe721959&amp;type=2#ONE Mobile Title SDF 1&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

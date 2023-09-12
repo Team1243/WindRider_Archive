@@ -1,0 +1,40 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/08.UI/Kyeong/PracticeSelectUI/PracticeSelectUI.uss?fileID=7433441132597879392&amp;guid=96d2aeb887be92241b3b7499f6c0704a&amp;type=3#PracticeSelectUI" />
+    <ui:VisualElement name="Container" style="background-color: rgba(0, 0, 0, 0.49); flex-basis: 100%; width: 600%; flex-direction: row; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:VisualElement name="Stage01" class="stage show" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="LabelCon" style="background-color: rgb(255, 255, 255);">
+                <ui:Label tabindex="-1" text="1" display-tooltip-when-elided="true" enable-rich-text="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Stage02" class="stage" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="LabelCon">
+                <ui:Label tabindex="-1" text="2" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Stage03" class="stage" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="LabelCon">
+                <ui:Label tabindex="-1" text="3" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Stage04" class="stage" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="LabelCon">
+                <ui:Label tabindex="-1" text="4" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Stage05" class="stage" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="LabelCon">
+                <ui:Label tabindex="-1" text="5" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Stage06" class="stage" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement name="LabelCon">
+                <ui:Label tabindex="-1" text="6" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Arrow" style="background-color: rgba(0, 0, 0, 0); width: 1920px; height: 1080px; flex-direction: row; align-items: center; justify-content: space-between;">
+            <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Kyeong/UI/Arrow.png?fileID=21300000&amp;guid=ba776cbfc111e1b448ad1482b381ad1c&amp;type=3#Arrow&apos;); left: 0; -unity-background-scale-mode: scale-to-fit; width: 128px; height: 128px; rotate: 180deg; margin-left: 300px; -unity-background-image-tint-color: rgb(255, 255, 255);" />
+            <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/02.Sprites/Kyeong/UI/Arrow.png?fileID=21300000&amp;guid=ba776cbfc111e1b448ad1482b381ad1c&amp;type=3#Arrow&apos;); left: 0; -unity-background-scale-mode: scale-to-fit; width: 128px; height: 128px; margin-right: 300px;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="화살표로 스테이지를 고르고,&#10;Space로 선택하세요" display-tooltip-when-elided="true" name="HelpText" style="position: absolute; top: 925px; left: 25px; -unity-font-definition: url(&apos;project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title%20SDF%201.asset?fileID=11400000&amp;guid=e1802647c169cfc4d8ac53f4fe721959&amp;type=2#ONE Mobile Title SDF 1&apos;); color: rgb(255, 255, 255); font-size: 54px; -unity-font: url(&apos;project://database/Assets/99.Others/Kyeong/Font/ONE%20Mobile%20Title/ONE%20Mobile%20Title.ttf?fileID=12800000&amp;guid=541bb131d092ae44fb4d412cbde03fc5&amp;type=3#ONE Mobile Title&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>
