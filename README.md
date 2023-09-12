@@ -5,7 +5,8 @@
 2학년 2학기 신구대학교 공모전 장려상 프로젝트 입니다.
 <br>
 
-<img src="https://img.shields.io/badge/youtube-FF0000?style=flat-square&logo=youtube&logoColor=white"/><a href="https://www.notion.so/af4f93ad03a4486c8ec16ce4bdaa3826?v=50373f18a19b4785b995abf3e68be6ff"><img src="https://img.shields.io/badge/notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
+
+<a href="https://www.youtube.com/watch?v=T2qkzc8wyIo"><img src="https://img.shields.io/badge/youtube-FF0000?style=flat-square&logo=youtube&logoColor=white"/></a><a href="https://www.notion.so/af4f93ad03a4486c8ec16ce4bdaa3826?v=50373f18a19b4785b995abf3e68be6ff"><img src="https://img.shields.io/badge/notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
 
 ## **_게임 소개_**
 
